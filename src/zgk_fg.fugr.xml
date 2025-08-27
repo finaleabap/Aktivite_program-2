@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FG Webservice GERMIS</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZGK_FGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZGK_FG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZGK_FM_WEBSERVICE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Basic Webservice</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IP_TITLE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR10</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IP_FIRSTNAME</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR30</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IP_LASTNAME</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR30</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EP_NAME</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IP_TITLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Karakter alanı uzunluğu 10</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IP_FIRSTNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>30 karakter</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IP_LASTNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>30 karakter</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EP_NAME</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

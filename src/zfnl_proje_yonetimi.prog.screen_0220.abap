@@ -1,0 +1,6 @@
+PROCESS BEFORE OUTPUT.
+  MODULE status_0220.
+  MODULE display_0100.
+*
+PROCESS AFTER INPUT.
+  MODULE user_command_0220.

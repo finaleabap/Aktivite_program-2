@@ -1,0 +1,12 @@
+PROCESS BEFORE OUTPUT.
+  MODULE status_0210.
+  MODULE init_screen_0100.
+
+  CALL SUBSCREEN sstab1 INCLUDING sy-cprog '0211'.
+  CALL SUBSCREEN sstab2 INCLUDING sy-cprog '0212'.
+*
+PROCESS AFTER INPUT.
+  MODULE user_command_0210.
+
+  CALL SUBSCREEN sstab1.
+  CALL SUBSCREEN sstab2.

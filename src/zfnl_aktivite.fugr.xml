@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Aktivite Service</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFNL_AKTIVITETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFNL_AKTIVITE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFNL_AKTIVITE_01</FUNCNAME>
+     <SHORT_TEXT>Aktivite Services</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_STRUCTURE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZFNL_AKTVT_01</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_STRUCTURE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Aktivite Programı Maın Screen</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
